@@ -5,7 +5,7 @@ const Hero = () => {  {/*Hero gives a lot of flexibilty for sizing text, images,
   return (
     <div className='text-white'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#00df9a] font-bold p-2'>   {/*the brackets are used for when you want to use a custom value, like I am for a color*/}
+        <p className='text-[#00B74A] font-bold p-2'>   {/*the brackets are used for when you want to use a custom value, like I am for a color*/}
           EXPAND YOUR CRYPTO
         </p>
         <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'> {/*These are the breakpoints for the sizing of the words, while you decrease or increase*/}
@@ -18,13 +18,13 @@ const Hero = () => {  {/*Hero gives a lot of flexibilty for sizing text, images,
           <Typed
           className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2' 
             strings={['BTC', 'ETH', 'USDT', 'DOGE', 'SOL', 'SHIB']}  
-            typeSpeed={120} 
-            backSpeed={140}
+            typeSpeed={130} 
+            backSpeed={150}
             loop
           />
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor your portfolio,  increase your portfolio with BTC, ETH, USDT, DOGE, SOL.</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+        <p className='md:text-2xl text-xl font-bold text-[#39C0ED]'>Monitor your portfolio,  increase your portfolio with BTC, ETH, USDT, DOGE, SOL, and may others.</p>
+        <button className='bg-[#00B74A] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
       </div>
     </div>
   );
