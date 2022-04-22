@@ -15,5 +15,6 @@ This is only a Frontend page with no Backend
 This was mainly to try out CSS Tailwind and ReactJS
 
 The typing effect is from a React package called 
-#React Typing
+
+### 'React Typing'
 
